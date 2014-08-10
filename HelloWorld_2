@@ -1,5 +1,5 @@
 {
-@HelloWorld_1,
+include-file: ["", "https://github.com/CommonAccord/JSON-J/blob/master/HelloWorld_1", ""]  // where [ prefixing , path to the source file, path in the source to the source object ] - include as part of the k:vs of this object, the k:vs of the  the k:vs of the file at that URL, ,  
 
 One : "Uno",
 
