@@ -9,10 +9,7 @@
 		"Text" : "%Text3",
 		"1._Para": "PLEASE READ THESE TERMS OF USE CAREFULLY. BY ACCESSING OR USING THE SITE, YOU AGREE TO BE BOUND BY THE TERMS DESCRIBED HEREIN AND ALL TERMS INCORPORATED BY REFERENCE. IF YOU DO NOT AGREE TO THESE TERMS, DO NOT USE THE SITE.",
 		"2._Para" : "These Terms of Use (\"Terms\") apply to your access to, and use of, the websites of {Site.Co.Inc}. and its subsidiaries and affiliated companies (\"{Site.Co.Name},\" \"we\" or \"us\"), including {www.site.com} (collectively, the \"Site\"). These Terms do not apply to the {Site.Co} open source client software or the {Site.Co} distributed open source global payment network accessed through that software (collectively, \"{Site.Co}\"), which may be accessed via our Site. As further described in Section {4.xref} (Assumption of Risk with {Site.Co}), {Site.Co.Name} does not own or control {Site.Co} and you are solely responsible for your use of {Site.Co}. Additionally, these Terms do not alter the terms or conditions of any other agreement you may have with {Site.Co.Name} for products, services or otherwise.", 
-		"3._Para":"{Site.Co.Name} reserves the right to change or modify the terms and conditions contained in these Terms or any policy or guideline of the Site, at any time and in its sole discretion. We will provide notice of these changes by posting the revised Terms to the Site and changing the \"Last Revised\" date at the top of the Terms, or by providing other means of notice as {Site.Co.Name} will determine each time in its sole discretion. Using a particular form of notice in some instances does not obligate us to use the same form in other instances. Any changes or modifications will be effective immediately upon posting the revisions to the Site, and will apply to your subsequent use of the Site. You waive any right you may have to receive specific notice of such changes or modifications. Your continued use of this Site will confirm your acceptance of such changes or modifications; therefore, you should review the Terms and applicable policies whenever you use the Site to understand the terms that apply to such use. The most current version of the Terms can be reviewed by clicking on the \"Terms of Use\" hypertext link located at the bottom of our web pages. If you do not agree to the Terms in effect when you access or use the Site, you must stop using the Site."}
-	},
-
- 
+		"3._Para":"{Site.Co.Name} reserves the right to change or modify the terms and conditions contained in these Terms or any policy or guideline of the Site, at any time and in its sole discretion. We will provide notice of these changes by posting the revised Terms to the Site and changing the \"Last Revised\" date at the top of the Terms, or by providing other means of notice as {Site.Co.Name} will determine each time in its sole discretion. Using a particular form of notice in some instances does not obligate us to use the same form in other instances. Any changes or modifications will be effective immediately upon posting the revisions to the Site, and will apply to your subsequent use of the Site. You waive any right you may have to receive specific notice of such changes or modifications. Your continued use of this Site will confirm your acceptance of such changes or modifications; therefore, you should review the Terms and applicable policies whenever you use the Site to understand the terms that apply to such use. The most current version of the Terms can be reviewed by clicking on the \"Terms of Use\" hypertext link located at the bottom of our web pages. If you do not agree to the Terms in effect when you access or use the Site, you must stop using the Site."},
  
 "SP1": 
 
@@ -23,7 +20,7 @@
 
 		"title": "Eligibility", 
  
-		"sec": "By accessing or using the Site, you represent and warrant that you have not previously been suspended or removed from the Site. You represent and warrant that you are not: (a) located in, under the control of, or a national or resident of any country to which the United States has embargoed goods or services; (b) identified as a \"Specially Designated National\", or (c) placed on the Commerce Department’s Denied Persons List. You further represent and warrant that you will not use the Site if the laws of your country prohibit you from doing so in accordance with these Terms." ,
+		"sec": "By accessing or using the Site, you represent and warrant that you have not previously been suspended or removed from the Site. You represent and warrant that you are not: (a) located in, under the control of, or a national or resident of any country to which the United States has embargoed goods or services; (b) identified as a \"Specially Designated National\", or (c) placed on the Commerce Department’s Denied Persons List. You further represent and warrant that you will not use the Site if the laws of your country prohibit you from doing so in accordance with these Terms."
 },
 
 "SP2": 
@@ -44,7 +41,9 @@
 
 	"Title" : "Privacy Policy", 
 
-	"Text": "Please refer to our Privacy Policy for information about how {Site.Co.Name} collects, uses and discloses information about its users.}", 
+	"Text": "Please refer to our Privacy Policy for information about how {Site.Co.Name} collects, uses and discloses information about its users." 
+
+},
 
 "SP4": 
 	{ 
@@ -55,7 +54,7 @@
 		"Text" : "{Site.Co.Name} developed the original protocol for {Site.Co}, and continues to promote its use as a distributed open source payment network. Additionally, as a member of the open source community, {Site.Co.Name} may contribute updates and modifications to the {Site.Co} source code. However, {Site.Co.Name} does not own or control {Site.Co}. {Site.Co} is an open source protocol that anyone can use, copy, modify and distribute. We encourage you to take precautions when considering whether to use {Site.Co}, particularly when participating in any {Site.Co} transaction with a stranger. You acknowledge and agree that {Site.Co.Name}: {List.0}{List.Cont}",
 
 
-		"variable":{"%list":"%OListSemiAnd4"},		
+		"variable":"{%list:%OListSemiAnd4}",		
 
 		"list":[
 
@@ -66,9 +65,8 @@
 		"is not a party to, has no involvement or interest in, makes no representations or warranties as to, and has no responsibility or liability with respect to any communications, transactions, interactions, disputes or any relations whatsoever between you and any other participant, person or organization that uses {Site.Co}",
 
 		"does not investigate or verify the reputation, conduct, morality or criminal background of any {Site.Co} participant, including without limitation any {Site.Co} gateway. Further, you acknowledge and agree that you are solely responsible for your access and use of {Site.Co}, including without limitation for: {List.0}"
-
 	]
-,
+},
 
 "OListSec5": 
 
