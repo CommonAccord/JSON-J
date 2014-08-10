@@ -1,17 +1,30 @@
 {
-Body : "{Prologue}<br><ol><li>{Secs}</li></ol>{Signature}<br>{Attach}",
+"Body":
+    [
+      "{%Prologue%}",
+      "{%Secs%}",
+      "{%Signature%}",
+      "{%Attach%}"
+    ],
 
-Prologue : "<div align=center>{Prologue.Heading}</div><br>{Prologue.Intro}",
+"Heading":  
+  [
+    "{%Title%}",
+    "{%Among%}",
+    "{Date: {%Sign.YMD%}"
+  ],
 
-Prologue.Heading : "<b>{Title}</b><br>{Among}<br>Date: {Sign.YMD}</center>",
+"Prologue":
+  [
+    {"intro": "{%thisAgreement%}"},
+    {"recital": "{%NowTherefore%}"}
+  ],
 
-Among : "Among: {P1.ID.Short} and {P2.ID.Short}", 
+"Among": "Among: {%P1.ID.Short%} and {%P2.ID.Short%}",
 
-Prologue.Intro :"{Prologue.ThisAgreement}<ul style="list-style-type: none;"><li>{Prologue.Recital}</li></ul>{Prologue.NowTherefore}",
-
-Signature : "{Signature.Witness}<br/>{Signature.Block}"
-
+"Signature":
+  [
+  "{%Witness%}",
+  "{%Block%}"
+  ]
 }
-
-
-
