@@ -7,16 +7,6 @@ OListSec5 : "<ol><li>{1._Sec}</li><li>{2._Sec}</li><li>{3._Sec}</li><li>{4._Sec}
 Text3: "{1._Para}<br>{2._Para}<br>{3._Para}" },
 
 
-//SecPara1:{ %SecHead , %Para1 }, 
-//SecPara2:{ %SecHead , %Para2 },
-
-//SecHead : {Sec: "<u>{Title}</u>.  {_sec}" },
-
-//Para1 : {sec: "{1.Para}"},
-//Para2 : {sec: "{1.Para}<br>{2}"},
-
-//OListSemiAnd4 : { sec : "<ol><li>{1};</li><li>{2};</li><li>{3}; and</li><li>{4}.</li></ol>" },
-
 
 Intro {
 
@@ -30,6 +20,23 @@ Text : %Text3
 
  }
 }
+
+OUT OF SANITY
+
+
+INSANITY
+
+//SecPara1:{ %SecHead , %Para1 }, 
+//SecPara2:{ %SecHead , %Para2 },
+
+//SecHead : {Sec: "<u>{Title}</u>.  {_sec}" },
+
+//Para1 : {sec: "{1.Para}"},
+//Para2 : {sec: "{1.Para}<br>{2}"},
+
+//OListSemiAnd4 : { sec : "<ol><li>{1};</li><li>{2};</li><li>{3}; and</li><li>{4}.</li></ol>" },
+
+
 
 
  
