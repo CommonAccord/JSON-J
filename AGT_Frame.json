@@ -1,0 +1,17 @@
+{
+Body : "{Prologue}<br><ol><li>{Secs}</li></ol>{Signature}<br>{Attach}",
+
+Prologue : "<div align=center>{Prologue.Heading}</div><br>{Prologue.Intro}",
+
+Prologue.Heading : "<b>{Title}</b><br>{Among}<br>Date: {Sign.YMD}</center><br>{Prologue.ThisAgreement}",
+
+Among : "Among: {P1.ID.Short} and {P2.ID.Short}", 
+
+Prologue.ThisAgreement : "This {Title} is made as of {Effective.YMD} by and between {P1.ID.N,E,A} and {P2.ID.N,E,A}.",
+
+Signature : "{Signature.Witness}<br/>{Signature.Block}"
+
+}
+
+
+
