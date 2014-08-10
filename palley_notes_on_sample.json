@@ -35,8 +35,9 @@
 	}, 
  
 "SP1": 
+
 	{
-		"variable": "%SP1",
+		"variable": "%SP1", 
 
 		"includes": "%SecPara1", 
 
@@ -46,6 +47,7 @@
 },
 
 "SP2": 
+
 	{
 		"variable": "%SP2",
 
@@ -55,6 +57,7 @@
 },
 
 "SP3": 
+
 	{ 
 
 	"includes": "%SP1",
