@@ -1,0 +1,44 @@
+{
+
+_Secs : "{Base._Secs}",
+
+Base._Secs [
+
+"{Deal._Secs}",
+
+"{Frame._Secs}",
+
+"{Def._Sec}"
+
+],
+
+
+Frame._Secs [
+"{Rep._Sec}",
+"{Cov._Sec}",
+"{Cond._Sec}",
+"{Term._Sec}",
+"{Limit._Sec}",
+"{Dispute._Sec}",
+"{Remedy._Sec}",
+"{Misc._Sec}"
+]
+,
+
+
+
+NDA.Deal._Secs: [
+
+"{Conf.Engage._Sec}",
+
+"{Conf.Except._Sec}",
+
+"{Conf.Reveal._Sec}",
+
+"{Conf.CC._Sec}",
+
+"{Conf.Care._Sec}"
+]
+
+
+}
