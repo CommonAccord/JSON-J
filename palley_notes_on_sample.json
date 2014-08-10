@@ -3,21 +3,12 @@
 "Body": 
 
 	[
-		"{Intro.Text},
+		"{Intro.Text}",
 
-		{OListSec5}"
-
-	],
-
-"OListSec5": 
-
-	[
-
-	"<ol><li>{1._Sec}</li><li>{2._Sec}</li><li>{3._Sec}</li><li>{4._Sec}</li><li>{5._Sec}</li></ol>.",
-
-	"%Text3%: {1._Para}<br>{2._Para}<br>{3._Para}"
+		"{OListSec5}"
 
 	],
+
 
 "Intro": 
 
@@ -89,6 +80,24 @@
 
 	]
 ,
+
+"OListSec5": 
+
+	[
+
+	"{1._Sec}
+	 {2._Sec}
+	 {3._Sec}
+	 {4._Sec}
+	 {5._Sec}",
+
+	"%Text3%: 
+	{1._Para}
+	{2._Para}
+	{3._Para}"
+
+	],
+
 List.4.List : [
 %OListSemiAnd4,
 "any payments or other {Site.Co} transactions you complete",
