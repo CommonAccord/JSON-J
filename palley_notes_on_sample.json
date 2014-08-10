@@ -69,20 +69,13 @@
 },
 
 "OListSec5": 
-
 	[
-
-	"{1._Sec}
-	 {2._Sec}
-	 {3._Sec}
-	 {4._Sec}
-	 {5._Sec}",
-
-	"%Text3%: 
-	{1._Para}
-	{2._Para}
-	{3._Para}"
-
+    "{1._Sec}",
+	 "{2._Sec}",
+	 "{3._Sec}",
+	 "{4._Sec}",
+	 "{5._Sec}",
+ 	 "%Text3: {1._Para}{2._Para}{3._Para}"
 	],
 
 "List.4.List": 
