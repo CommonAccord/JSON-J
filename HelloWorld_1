@@ -1,10 +1,10 @@
 {
 
-Rendering_Default_Key: "{One}, {Two}, {Three}!",
+Default_Key: "{One}, {Two}, {Three}!",
 One : "One",
 Two : "Two",
 Three : "Three",
-DesiredOutput : "One, Two, Three!"
+Rendered_Default_Key : "One, Two, Three!"
 }
 
 
