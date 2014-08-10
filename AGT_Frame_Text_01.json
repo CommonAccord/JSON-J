@@ -1,0 +1,18 @@
+
+{
+
+Prologue.ThisAgreement : "This {Title} is made as of {Effective.YMD} by and between {P1.ID.N,E,A} and {P2.ID.N,E,A}.",
+
+Prologue.NowTherefore : "NOW THEREFORE, in consideration of the premises and promises of {this Agreement}, the {parties} hereby agree",
+
+Signature.Witness : "IN WITNESS WHEREOF, the {parties} have executed {this Agreement} to be effective as of {Effective.YMD}.",
+
+'this Agreement' : "this Agreement",
+
+'This Agreement' : "This Agreement",
+
+party : "Party",
+
+parties : "Parties"
+
+}
