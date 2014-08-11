@@ -1,0 +1,7 @@
+{
+import-var: "https://github.com/CommonAccord/JSON-J/blob/master/HelloWorld_1",  
+
+One : "Uno",
+
+Rendered_Default_Key : "Uno, Two, Three!"
+}

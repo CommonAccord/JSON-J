@@ -1,0 +1,17 @@
+{
+
+MyInvite1 {  Two: "{invitee.Name.First}", include-ref : [ "invitee", "sam"], import-var: "https://github.com/CommonAccord/JSON-J/blob/master/HelloWorld_1",
+, Three: "Trois", Rendered_Default_Key : "One, Samuel, Three"  
+            
+}
+
+
+
+sam  { name.first : "Samuel",
+name.last : "Jones",
+addr.1 : "111 Main Street",
+addr.2 : "Cambridge, MA  02144"
+}
+
+
+}
