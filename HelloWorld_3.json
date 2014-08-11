@@ -1,0 +1,15 @@
+{
+
+MyInvite : { include-ref [ "invitee", "sam"], import-var: "https://github.com/CommonAccord/JSON-J/blob/master/HelloWorld_1", One: "{Sam.Name}",
+}
+            
+
+sam : { name.first : "Samuel",
+name.last : "Jones",
+addr.1 : "111 Main Street",
+addr.2 : "Cambridge, MA  02144"
+}
+
+
+
+}
