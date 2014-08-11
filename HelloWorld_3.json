@@ -1,7 +1,7 @@
 {
   "MyInvite1":
   {
-    "Two": "{invitee.Name.First}",
+    "Two": "{invitee.name.First}",
     "include-ref": [ "invitee", "sam"],
     "import-var": "https://github.com/CommonAccord/JSON-J/blob/master/HelloWorld_1",
     "Three": "Trois",
