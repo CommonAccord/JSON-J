@@ -1,0 +1,30 @@
+<!-- create a div for the text -->
+<div id="demo"></div>
+
+<!-- use jsonr.jr to help with recursion -->
+<script type="text/javascript" src="jsonr.js"></script>
+<script>
+
+/*define a variable that is compromised of JSON here, we're placing
+the json in the textin later versions, well read from an external file
+the + symbols are for readability and create line breaks
+they are not part of the JSON */
+
+
+var usa= ' '+
+'[{"name": "Frame ","AGT1":' +
+'{"name": "AGT_Frame","language": "English ","prologue": "This prologue ","capital":"\uE001"}},' +
+'{"name": "New York ","AGT1": "\uE002"},'+
+'{"name": "San Francisco","AGT1": "\uE002"}]';
+
+reObject = JSONR.parse(usa);
+
+/* create a variable comprised of selected elements of JSON data
+that will be placed into the HTML */
+
+var box= reObject[0].name + "<br>" +
+reObject[0].AGT1.name  + "<br>" +
+reObject[2].AGT1.language;
+
+document.getElementById('demo').innerHTML = box;
+</script>
