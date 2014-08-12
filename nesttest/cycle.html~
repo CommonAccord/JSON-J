@@ -10,9 +10,6 @@ the json in the textin later versions, well read from an external file
 the + symbols are for readability and create line breaks
 they are not part of the JSON */
 
-str ="My name is {Jim}";
-str = str.replace(/[{}]/g, "");
-document.write(str);
 
 var usa= ' '+
 '[{"name": "Frame ","AGT1":' +
