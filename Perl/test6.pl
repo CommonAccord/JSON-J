@@ -14,7 +14,7 @@ do 'being.cmacc';
 
 %ya = ('name' => 'Primavera', 'handle' => "ya");
 
-my %start = (%template, 'my'=> %ya, 'my.handle' => "ya!");
+%start = (%template, 'my'=> \%ya, 'my.handle' => "ya!");
 
 
 my $render1 = "{start.body}";
@@ -41,11 +41,20 @@ sub parser {
 
 		while( my($struct) = $_ =~ /{([^}]+)}/) {
 
-			if(! ($struct =~ /([^.]+)\./) ) {
-				$struct = $old . ".$struct";
+
+			my($base) = $struct =~ /([^.]+)\./;
+
+			if(!$base ) {
+				$struct = $old . "." . $struct;
 			} else {
-				$old = $1;
+				
+				if(!(%$base)) { 
+					$struct = $old . "." . $struct;
+				} else {
+					$old = $base; 
+				}
 			}
+
 
 			my @hash = split('\.', $struct);
 			my $h = shift @hash;
@@ -55,11 +64,13 @@ sub parser {
 			}
 			
 			foreach my $k (@hash) { $h .= "->\{$k\}" };
-			
-			s/{[^}]+}/$h/;	
+		
+	
+			s/{[^}]+}/$h/;
+
 
 			$_ = eval(quote($_));	
-
+			
 
 		}
 
