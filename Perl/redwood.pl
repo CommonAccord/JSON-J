@@ -5,10 +5,9 @@ use strict;
 
 my %usa = ('nation', 'United States of America');
 
-my %cali = (%usa, 'state', 'California', 'Addr2', '{redw.state} {redw.nation}');
+my %cali = (%usa, 'state', 'California', 'Addr2', '{redw.state} {redw.nation}', 'city', 'undetermined');
 
 my %redw = (%cali, 'city', 'Redwood City', 'county', 'San Mateo', 'zip', 94063);
-
 
 
 print "$_ = ". $redw{$_} for keys %redw;
