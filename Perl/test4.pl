@@ -3,7 +3,7 @@
 use warnings;
 #use strict;
 
-# this does not work.  The reason seems to be the use of a period in a key name.  
+# this does not work.  The reason seems to be the use of a period in a key name.  This will prevent overriding.
 
 
 do 'being.cmacc';
