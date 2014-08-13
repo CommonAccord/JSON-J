@@ -9,9 +9,9 @@ use warnings;
 do 'being.cmacc';
 
 
-%doc = ("doc.body" => "My name is {name}, {being.state}.");
+%template = ("doc.body" => "My name is {name}, {being.state}.");
 
-my %start = (%doc , 'name', 'James' );
+my %start = (%template , 'name', 'James' );
 
 
 my $render1 = "{start.doc.body}";
