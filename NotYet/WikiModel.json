@@ -1,0 +1,33 @@
+
+{
+"AGT_Frame" : [\201, \004, \001, ],
+
+"Sam_Spade" : [ \134, \045,  \003],
+
+"Al_Albert" : [ \144 , \023 ],
+
+"My_Deal" : [\203]
+
+"001" : {'Doc.Body' :  "Agreed between {Seller.name.last} and {Buyer.name.last} that they will ..."},
+
+"003" : {'name {first' :  "Samuel", 'last' :  "Space"} },
+
+"134" : {'name.last' :  "Spade", \003 },
+
+"144" : {'name.last' :  "Albert" },
+
+"203" : {'/form/' :  \AGT_Frame, 'Seller' :  \134, "Buyer.name.last": "(to be determined)" },
+
+"204" : { 'Seller' :  \144 , '/draft/' :  \203 },
+
+"205" : {'/draft/' :  \203 , 'Seller' :  \144  }, // \203 comes first, so Seller.name.last comes from \203 ==> \134 ==> name.last (Seller \144 is not evaluated)
+
+}
+
+
+render(203) ==>  "Agreed between Spade and (to be determined) that they will ..." 
+
+render(204) ==>  "Agreed between Albert and (to be determined) that they will ..." 
+
+render(205) ==>  "Agreed between Spade and (to be determined) that they will ..." 
+
