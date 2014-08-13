@@ -1,1 +1,7 @@
-%being = ('state', 'alive');
+%being = ('state', 'amazed');
+my %man = (%human, 'legs', 3);
+my %woman = (%human, 'legs', 1);
+
+%jim = (%man, 'name', "Jim Hazzard", 'friend', \%ya);
+%ya = (%woman, 'name', "Primavera", 'friend', \%jim);
+
