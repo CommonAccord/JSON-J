@@ -31,3 +31,14 @@ render(204) ==>  "Agreed between Albert and (to be determined) that they will ..
 
 render(205) ==>  "Agreed between Spade and (to be determined) that they will ..." 
 
+It is possible to think of this as creating a graph that is connected by ordinals and the "prefixes" as being sign posts when traversing.  So in \203, the reference to \134 is understood as x.1.x (while \AGT_Frame is x.0.x).  When an expression {Seller.name.last} would become {1.name.last} and once it got to 144, would be {name.last}.  In the document one could say {1.name.last} and get the same result.
+
+So far, all of the prototypes have stuck strictly to substituting values for keys as the sole method for rendering. There are two additional features that can be added. 
+
+One is manipulation of the list items - so that you can create a syntax for expressing that you want certain elements of a list wrapped in formatting to make them into a numbered list (e.g., <ol><li>{1}; and</li><li>{2}.</li></ol> ) in the output.  This begins to demand more of the user, but is obviously more rigorous and maintainable.  So this kind of automation needs to produce a value that is strictly a string of html in the output, so the user can override it if they want. 
+
+A second additional feature is the equivalent of spreadsheet formulas. E.g., to add a column of numbers or multiply quantity times price.  This is obviously necessary.  My hope is that we do not need to make a decision, nor invent something.  Instead, the functions of existing programming languages could be used by passing the expression (instead of {Buyer.Name} we might have {+ 3 6} or {Lisp.+ 3 6}) to a "smart list" that is in fact a programming resource.  It would return the result as a value. It could be overridden by the user.
+
+     
+
+    
