@@ -14,14 +14,44 @@ print "OUTPUT: " . parser($render1);
 
 
 sub parser {
-	$_ = shift; my $r;
+	$_ = shift; 
+	
+	#	while( ($r) = $_ =~  /{([^.}]+)/ ) {		
+	#		s/{(.+?)\.(.+?)}/\$$1\{$2\}/g;
+	#		s/{([^.}]+)\.([^.}]+)}/{$1}->{$2}/g;
+	#		s/{([^}]+)}/\${$r}{$1}/g;
+	#		$_ = eval(quote($_));
+	#	}
+	
+	
+	print $_;
+	
+	my $old;
+
+		while( my($struct) = $_ =~ /{([^}]+)}/) {
+
+			if(! ($struct =~ /([^.]+)\./) ) {
+				$struct = $old . ".$struct";
+			} else {
+				$old = $1;
+			}
+
+			my @hash = split('\.', $struct);
+			my $h = shift @hash;
 			
-		s/{(.+?)\.(.+?)}/\$$1\{$2\}/g;
-		s/{([^.}]+)\.([^.}]+)}/{$1}->{$2}/g;
-		
-		
-		$_ = eval(quote($_));
-		
+			if(@hash) { 
+				 $h = "\$$h\{" .shift(@hash) . "\}";
+			}
+			
+			foreach my $k (@hash) { $h .= "->\{$k\}" };
+			
+			s/{[^}]+}/$h/;	
+
+			$_ = eval(quote($_));	
+
+
+		}
+
 	return $_;	
 }
 
