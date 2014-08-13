@@ -3,6 +3,8 @@
 use warnings;
 #use strict;
 
+# fails to find " {name} " in body.
+
 my %doc = ('body',"My name is {name}.", 'name', 'James' );
 
 
