@@ -1,4 +1,5 @@
 
+This is not intended to be conforming JSON.  It's more like a whiteboard.  But the JSON helps to convey the idea.
 {
 "AGT_Frame" : [\201, \004, \001, ],
 
