@@ -1,5 +1,5 @@
 
-This is not intended to be conforming JSON.  It's more like a whiteboard.  But the JSON helps to convey the idea.
+This is not intended to be conforming JSON.  It's more like a whiteboard.  But the JSON helps to convey the idea. This is a Cmacc representation of Mediawiki, e.g, beta.commonaccord.org.
 {
 "AGT_Frame" : [\201, \004, \001, ],
 
