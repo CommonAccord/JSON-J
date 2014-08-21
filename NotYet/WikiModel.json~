@@ -1,0 +1,18 @@
+{
+"AGT_Frame" : [\001, \004, \010, \201],
+
+"Sam_Spade" : [\003, \045, \134],
+
+"Al_Albert" : [\023, \144],
+
+"001" : {'key1' :  "bit of text", 'key2' :  "other text" },
+
+"003" : {'name.first' :  "Samuel", 'name.last' :  "Space" },
+
+"045" : {'name.first' :  "Samuel", 'name.last' :  "Spade" },
+
+}
+
+
+
+

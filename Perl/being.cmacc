@@ -1,1 +1,11 @@
-%being = ('state', 'amazed');
+%being = ('docbody', "{invitorname} likes {inviteename}", );
+
+my %jim = (%man, 'name', "Jim Hazzard", 'friend', \%ya);
+my %ya = (%woman, 'name', "Primavera", 'friend', \%jim);
+
+
+my %human = (%being, 'head', 1, 'hands', 2, 'legs', 2);
+
+my %man = (%human, 'legs', 3);
+my %woman = (%human, 'legs', 1);
+
