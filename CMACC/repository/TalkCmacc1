@@ -1,0 +1,6 @@
+Model.Root=Instructions: A key should <b>{a key should}</b>.  A field should {a field should}</i>.  {f2-s.xjw irj @ sllaper}
+a key should=be able to contain anything, but can't start or end with a space, or contain the equals sign or a {
+a field should=<i>be able to contain anything, even an equals sign, but a nested {this means that} has not yet been supported and perhaps should not be
+f2-s.xjw irj @ sllaper=Total liberty!
+this means that=currently invalid
+means=not found
