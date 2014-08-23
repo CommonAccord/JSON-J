@@ -25,7 +25,9 @@ sub parse_root {
 	my ($f, $field) = @_; my $root;
 
 	seek($f, 0, 0);	
+	local $/ = "\n\n";
 	while(<$f>) {
+		$_ = substr($_, 0, -2);
 		return $root if ($root) = $_ =~ /^$field\s*=\s*(.*?)$/;
 	}
 	
