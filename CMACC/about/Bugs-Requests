@@ -10,5 +10,13 @@ Bugs / Requests for Improvements:
 4.  Handle infinite loops.  I can't figure out how I created one, but I did.   Test for some infinite loops - values that cross-reference (an error by the author, but easy to do).  Lists that reference one another (necessary when prefixing is used, perhaps useful even without, and certainly an easy error to make). 
 
 5. Bugs:  Infinite loop in AGT_Bug_3.txt
+
+(Updated Parser - for 2 linefeeds)
+
+6. AGT_Bug_4.txt - the LAST character in the file is trimmed.  Any following character prevents the trimming.
+
+
+
+
  
 

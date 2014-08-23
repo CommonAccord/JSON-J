@@ -2,8 +2,6 @@
 
 -=Quake
 
-ID.Name={ID.Name.Full}
-
 ID.Name.Full=Quake Inc.
 
 ID.Addr.1=811 Hamlin Road
@@ -13,10 +11,6 @@ ID.Addr.2=Redwood City, CA  94063
 ID.Addr.Type=business
 
 ID.BusinessDomain=information services consulting
-
-ID.Entity.a=a {ID.Entity}
-
-ID.Entity=Delaware corporation
 
 President.ID.Name.Full=Colleen Kendall
 
@@ -30,9 +24,6 @@ Sign.ID.Name.Full={President.ID.Name.Full}
 
 Sign.Title={President.Title}
 
-<b>Class</b>= recursion would let us state this stuff once, for all persons
-
-
 Empty=
 
 The={-}
@@ -40,5 +31,10 @@ The={-}
 the={-}
 
 he-she=it
-=[Class_ID.cmacc]
+
+ID.Entity.a=a {ID.Entity}
+
+ID.Entity=Delaware corporation
+
+=[Class/ID.cmacc]
 

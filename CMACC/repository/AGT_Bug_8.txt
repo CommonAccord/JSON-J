@@ -1,0 +1,25 @@
+=[AGT_Frame.cmacc]
+
+P1.ID.Addr.2=<b>Almost Boston</b>
+
+P1.=[Persons/ID_MIT_Edu.cmacc]
+
+P1.=[Class/ID.cmacc]
+
+P2.=[Persons/ID_Quake_Inc.cmacc]
+
+P1.Handle=MIT
+
+P2.Handle=Company
+
+P1.ID.Name.Short=MIT
+
+P1.xSignature=x Lita Nelson
+
+This works!  It calls on ID_MIT_Edu.cmacc, which references Class/ID.cmacc
+
+Prologue.Recital={P1.Notice.Block}
+
+
+
+

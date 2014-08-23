@@ -32,6 +32,8 @@ P1.Contact.Block=For {P1.-}:<br>{P1.Contact1.Identity.Full}<br>{P1.Contact2.Iden
 
 P2.Contact.Block=For {P2.-}:<br>{P2.Contact1.Identity.Full}<br>{P2.Contact2.Identity.Full}
 
+ 
+
 Prologue.NowTherefore=In consideration of {Therefore.Roles}, the parties hereby agree as follows:
 
 AGT._Secs=<ol><li>{Conf._Sec}</li><li>{Use._Sec}</li><li>{Care._Sec}</li><li>{Compelled._Sec}</li><li>{Disclaim.Warranty._Sec}</li><li>{Term._Sec}</li><li>{Remedy._Sec}</li><li>{Notice._Sec}</li><li>{Misc._Sec}</li></ol>
@@ -196,6 +198,8 @@ Misc.Law.Title=Governing Law
 
 Misc.Law._sec=The interpretation and validity of this Agreement and the rights of the parties shall be governed by the laws of {State.the}.
 
+State.the=the Commonwealth of Massachusetts
+
 Misc.Counterpart._Sec=<u>{Misc.Counterpart.Title}</u>. &nbsp;{Misc.Counterpart._sec}
 
 Misc.Counterpart.Title=Counterparts
@@ -203,6 +207,10 @@ Misc.Counterpart.Title=Counterparts
 Misc.Counterpart._sec=This Agreement may be executed in two or more counterparts, each of which will be deemed to be an original, but all of which together constitute one and the same instrument.
 
 Signature.Intro=Executed as of the Effective Date:
+
+Sign.Block=
+
+AGT.Attach=
 
 P2.-=Company
 
@@ -244,7 +252,7 @@ parties=parties
 
 party=party
 
-Agt.Attachment={_delete_}
+Agt.Attachment=
 
 relating to=relating to
 

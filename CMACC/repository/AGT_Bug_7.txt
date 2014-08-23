@@ -1,0 +1,16 @@
+=[AGT_Frame.cmacc]
+
+P1.=[Persons/ID_MIT_Edu.cmacc]
+
+P1.=[Class/ID.cmacc]
+
+
+This works!  It calls on ID_MIT_Edu.cmacc, which references Class/ID.cmacc
+
+Prologue.Recital={P1.Notice.Block}
+
+
+This does not work :(  though the path is the same.  
+
+AGT._Secs={P1.ID.N,E,A}
+
