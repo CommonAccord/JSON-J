@@ -1,0 +1,53 @@
+<b>Quake Info</b>
+
+P2.-=Quake
+
+P2.ID.Name={P2.ID.Name.Full}
+
+P2.ID.Name.Full=Quake Inc.
+
+P2.ID.Addr.1=811 Hamlin Road
+
+P2.ID.Addr.2=Redwood City, CA  94063
+
+P2.ID.Addr.Type=business
+
+P2.ID.BusinessDomain=information services consulting
+
+P2.ID.Entity.a=a {P2.ID.Entity}
+
+P2.ID.Entity=Delaware corporation
+
+P2.President.ID.Name.Full=Colleen Kendall
+
+P2.President.Title=President and Chairman 
+
+P2.ID.Fax=650.345.1234
+
+P2.ID.SignBy=By:<br/>Name: {P2.President.ID.Name.Full}<br/>Its: {P2.President.Title}
+
+P2.Sign.ID.Name.Full={P2.President.ID.Name.Full}
+
+P2.Sign.Title={P2.President.Title}
+
+<b>Class</b>= recursion would let us state this stuff once, for all persons
+
+P2.ID.N,E,A={P2.ID.Name.Full}, {P2.ID.Entity.a} whose {P2.ID.Addr.Type} address is {P2.ID.Addr.1,2}
+
+P2.Notice.Block={P2.ID.Addr.N/1/2}
+
+P2.ID.Addr.1,2={P2.ID.Addr.1}, {P2.ID.Addr.2}
+
+P2.ID.Addr.N/1/2={P2.ID.Name}<br/>{P2.ID.Addr.1/2}
+
+P2.ID.Addr.1/2={P2.ID.Addr.1}<br/>{P2.ID.Addr.2}
+
+Empty=
+
+P2.The={P2.-}
+
+P2.the={P2.-}
+
+P2.he-she=it
+
+

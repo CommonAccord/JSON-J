@@ -1,3 +1,5 @@
+This is an introduction.  No real purpose. Fantastic!  It works.
+
 Model.Root={Doc.Body}
 
 Doc.Body={AGT.Doc.Body}
@@ -32,8 +34,3 @@ party=Party
 parties=Parties
 
 Effective Date=Effective Date
-
-
-=[import.cmacc]
-
-almost.=[import3.cmacc]
