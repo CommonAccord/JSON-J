@@ -11,9 +11,6 @@ Corp=MIT Corporation
 
 ID.N,E,A={ID.Name.Full}, with a principal place of business at {ID.Addr.1,2}
 
-ID.Addr.1,2={ID.Addr.1}, {ID.Addr.2}
-
-ID.Addr.1/2={ID.Addr.1}<br>{ID.Addr.2}
 
 ID.Addr.1=77 Massachusetts Avenue
 
@@ -26,36 +23,18 @@ OSP={ID.Name.Full} Office of Sponsored Research
 TLO=MIT Technology Licensing Office
 
 <b>MIT TLO</b>=-
-
-TLO.Dir.ID.N/T/D={TLO.Dir.ID.Name.Full},<br>{TLO.Dir.Title}<br>{TLO.ID.Name}
-
-TLO.ID.Addr.N/1/2={TLO.ID.Name.Full}<br>{TLO.ID.Addr.1}<br>{TLO.ID.Addr.2}
-
-TLO.Dir.ID.N,T={TLO.Dir.ID.Name.Full}, {TLO.Dir.Title}
+ID.SignBy=By:<br/>Name: {TLO.Dir.ID.Name.Full}<br/>Its: {TLO.Dir.Title}
 
 TLO.Dir.ID.Name.Full=Lita Nelson
-
-TLO.Dir.Title=Director
-
-TLO.ID.Name.Full=MIT Technology Licensing Office
-
-TLO.ID.Addr.1=One Cambridge Center, Kendall Square, Rm NE18-501
-
-TLO.ID.Addr.2=Cambridge, MA 02142-1601 
 
 Contact1.ID.N/A={TLO.Dir.ID.N,T}<br/>{TLO.ID.Addr.N/1/2}
 
 ID.N,E,A={ID.Name.Full}, {ID.Addr.1,2}
-
-Notice.Block={TLO.ID.Addr.N/1/2}
-
-ID.Addr.1,2={ID.Addr.1}, {ID.Addr.2}
-
-ID.Addr.1/2={ID.Addr.1}<br/>{ID.Addr.2}
 
 The={-}
 
 the={-}
 
 he-she=it
-
+TLO.=[ID_MIT_TechLicensingOffice]
+=[Class_ID]

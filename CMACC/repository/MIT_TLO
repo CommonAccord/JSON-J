@@ -1,5 +1,3 @@
-=[AGT_Frame.txt]
-
 <b>Parameters</b>=These fit the agreement to Mutual (as opposed to InBound or OutBound).
 
 Prologue.Heading={AGT.Title}
@@ -210,7 +208,7 @@ Misc.Counterpart._sec=This Agreement may be executed in two or more counterparts
 
 Signature.Intro=Executed as of the Effective Date:
 
-Sign.Block=[[AGT.Sign.Block.Edu;P2]]
+Sign.Block=
 
 AGT.Attach=
 
@@ -258,3 +256,4 @@ Agt.Attachment=
 
 relating to=relating to
 
+=[AGT_Frame.txt]

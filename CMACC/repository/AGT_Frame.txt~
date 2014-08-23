@@ -20,7 +20,7 @@ AGT.Sign={Sign.Witness}<br>{Sign.Block}
 
 Sign.Witness=IN WITNESS WHEREOF, the {parties} have executed {this Agreement} to be effective as of {AGT.Effective.YMD}.
 
-Sign.Block=<table><tr><td>{P1.Sign.Block}</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>{P2.Sign.Block}</td></td></table>
+Sign.Block={P1.Sign.Block}<br>{P2.Sign.Block}
 <strong>Vocabulary</strong>= Defined terms.
 
 Agreement=Agreement
