@@ -2,7 +2,7 @@ MIT:
 
 <b>MIT</b>=&nbsp;
 
-ID.Name.Full=<b>Massachusetts Institute of Technology</b>
+ID.Name.Full=Massachusetts Institute of Technology
 
 
 -=MIT
@@ -10,7 +10,6 @@ ID.Name.Full=<b>Massachusetts Institute of Technology</b>
 Corp=MIT Corporation
 
 ID.N,E,A={ID.Name.Full}, with a principal place of business at {ID.Addr.1,2}
-
 
 ID.Addr.1=77 Massachusetts Avenue
 
@@ -23,20 +22,16 @@ OSP={ID.Name.Full} Office of Sponsored Research
 TLO=MIT Technology Licensing Office
 
 <b>MIT TLO</b>=-
+
 ID.SignBy=By: <u>{xSignature}</u><br/>Name: {TLO.Dir.ID.Name.Full}<br/>Its: {TLO.Dir.Title}
 
 TLO.Dir.ID.Name.Full=Lita Nelson
 
 TLO.Dir.Title=Director
+
 Contact1.ID.N/A={TLO.Dir.ID.N,T}<br/>{TLO.ID.Addr.N/1/2}
 
 ID.N,E,A={ID.Name.Full}, {ID.Addr.1,2}
-
-The={-}
-
-the={-}
-
-he-she=it
 
 TLO.=[ID_MIT_Edu_TechLicensingOffice.cmacc]
 

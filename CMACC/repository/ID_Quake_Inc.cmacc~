@@ -2,9 +2,6 @@
 
 =[Class/ID.cmacc]
 
-ID.N,E,A={ID.Name.Full}, {ID.Entity.a} whose {ID.Addr.Type} address is {ID.Addr.1,2}
-
-
 -=Quake
 
 ID.Name.Full=Quake Inc.
@@ -41,5 +38,3 @@ he-she=it
 ID.Entity.a=a {ID.Entity}
 
 ID.Entity=Delaware corporation
-
-

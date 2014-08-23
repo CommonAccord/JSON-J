@@ -1,0 +1,3 @@
+Model.Root={MyText}
+
+MyText=Word
