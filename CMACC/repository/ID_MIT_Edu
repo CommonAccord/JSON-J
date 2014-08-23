@@ -27,6 +27,7 @@ ID.SignBy=By:<br/>Name: {TLO.Dir.ID.Name.Full}<br/>Its: {TLO.Dir.Title}
 
 TLO.Dir.ID.Name.Full=Lita Nelson
 
+TLO.Dir.Title=Director
 Contact1.ID.N/A={TLO.Dir.ID.N,T}<br/>{TLO.ID.Addr.N/1/2}
 
 ID.N,E,A={ID.Name.Full}, {ID.Addr.1,2}
