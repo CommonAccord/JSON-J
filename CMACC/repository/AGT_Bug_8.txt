@@ -8,17 +8,23 @@ P1.=[Class/ID.cmacc]
 
 P2.=[Persons/ID_Quake_Inc.cmacc]
 
+AGT._Secs=OK
+
+AGT.Title=OK
+
+AGT.Effective.YMD=OK
+
+Prologue.Recital={P1.Notice.Block}
+
+This works when the {P1.Handle} is in AGT_Frame.cmacc, but not when the {Handle} is in Class/ID.cmacc (called by Persons/ID_MIT_Edu.cmacc and by Persons/ID_Quake_Inc.cmacc
+
 P1.Handle=MIT
 
 P2.Handle=Company
 
-P1.ID.Name.Short=MIT
+This, too, is not found.
 
 P1.xSignature=x Lita Nelson
-
-This works!  It calls on ID_MIT_Edu.cmacc, which references Class/ID.cmacc
-
-Prologue.Recital={P1.Notice.Block}
 
 
 
