@@ -16,7 +16,7 @@ Contact.Roles._cl=disclosing or receiving confidential information for these par
 
 DP.Each=Each party 
 
-Export.Consent._cl=the written consent of {RP.theOther}.  In the case of {P1.-}, the written consent must be executed by {P1.-}&rsquo;s Export Control Officer
+Export.Consent._cl=the written consent of {RP.theOther}. &nbsp;In the case of {P1.-}, the written consent must be executed by {P1.-}&rsquo;s Export Control Officer
 
 <b>Text</b>=
 
@@ -38,7 +38,7 @@ Prologue.NowTherefore=In consideration of {Therefore.Roles}, the parties hereby 
 
 AGT._Secs=<ol><li>{Conf._Sec}</li><li>{Use._Sec}</li><li>{Care._Sec}</li><li>{Compelled._Sec}</li><li>{Disclaim.Warranty._Sec}</li><li>{Term._Sec}</li><li>{Remedy._Sec}</li><li>{Notice._Sec}</li><li>{Misc._Sec}</li></ol>
 
-Conf._Sec=<u>{Conf.Title}</u>.  {Conf._sec}
+Conf._Sec=<u>{Conf.Title}</u>. &nbsp;{Conf._sec}
 
 Conf._Sec.Xnum=1
 
@@ -72,13 +72,13 @@ Conf.Except.Makes=is independently developed by {RP.the} without use of {DP.the}
 
 CC.Students._Sen=For purposes of this Agreement, {P1.-} students are not third parties vis-a-vis {P1.-}. 
 
-Use._Sec=<u>{Use.Title}</u>.  {Use._sec}
+Use._Sec=<u>{Use.Title}</u>. &nbsp;{Use._sec}
 
 Use.Title=LIMITATIONS ON USE
 
-Use._sec={RP.The} shall use {DP.the}&rsquo;s Confidential Information solely for the Purpose.  Disclosure by {DP.the} of its Confidential Information does not constitute a grant to {RP.the} of any right or license to {DP.the}&rsquo;s Confidential Information, except as set forth herein.
+Use._sec={RP.The} shall use {DP.the}&rsquo;s Confidential Information solely for the Purpose. &nbsp;Disclosure by {DP.the} of its Confidential Information does not constitute a grant to {RP.the} of any right or license to {DP.the}&rsquo;s Confidential Information, except as set forth herein.
 
-Care._Sec=<u>{Care.Title}</u>.  {Care._sec}
+Care._Sec=<u>{Care.Title}</u>. &nbsp;{Care._sec}
 
 Care.Title=CARE OF CONFIDENTIAL INFORMATION
 
@@ -90,7 +90,7 @@ CC.NeedToKnow_Warned._cl={RP.the} may disclose or permit disclosure of any of {D
 
 CC.Persons=its directors (in the case of {P1.-}, members), officers, employees, consultants, advisors and, in the case of {P1.-}, students,
 
-Compelled._Sec=<u>{Compelled.Title}</u>.  {Compelled._sec}
+Compelled._Sec=<u>{Compelled.Title}</u>. &nbsp;{Compelled._sec}
 
 Compelled.Title=REQUIRED DISCLOSURES
 
@@ -112,17 +112,17 @@ Compelled.Cond.Cooperate=provides reasonable cooperation to {DP.the} in any effo
 
 Compelled.Cond.Minimize=furnishes only that portion of the Confidential Information which {RP.the} is legally required to disclose
 
-Disclaim.Warranty._Sec=<u>{Disclaim.Warranty.Title}</u>.  {Disclaim.Warranty._sec}
+Disclaim.Warranty._Sec=<u>{Disclaim.Warranty.Title}</u>. &nbsp;{Disclaim.Warranty._sec}
 
 Disclaim.Warranty.Title=NO WARRANTY
 
 Disclaim.Warranty._sec=All Confidential Information is provided &ldquo;as is.&rdquo;  {DP.NeitherMakes} any warranties, expressed or implied, regarding its Confidential Information&rsquo;s accuracy, completeness, suitability or performance.
 
-Term._Sec=<u>{Term.Title}</u>.  {Term._sec}
+Term._Sec=<u>{Term.Title}</u>. &nbsp;{Term._sec}
 
 Term.Title=TERM OF AGREEMENT
 
-Term._sec=The term of this Agreement shall commence on the Effective Date and terminate on the earliest of {Term.Stop.List}.  {RP.A}&rsquo;s obligations with respect to use and non-disclosure of {DP.the}&rsquo;s Confidential Information shall survive for a period of {Conf.Protect.Period}.
+Term._sec=The term of this Agreement shall commence on the Effective Date and terminate on the earliest of {Term.Stop.List}. &nbsp;{RP.A}&rsquo;s obligations with respect to use and non-disclosure of {DP.the}&rsquo;s Confidential Information shall survive for a period of {Conf.Protect.Period}.
 
 Conf.Protect.Period={Conf.Protect.Period.Years} following receipt of the information
 
@@ -134,65 +134,65 @@ Term.Stop.TimeCertain=three years from the date of this Agreement
 
 Term.Stop.Notice=the date on which a party provides notice of termination of this Agreement to the other
 
-Remedy._Sec=<u>{Remedy.Title}</u>.  {Remedy._sec}
+Remedy._Sec=<u>{Remedy.Title}</u>. &nbsp;{Remedy._sec}
 
 Remedy.Title=RETURN OR DESTRUCTION OF CONFIDENTIAL INFORMATION
 
 Remedy._sec=Following termination of this Agreement, {RP.the} shall, at the direction of {DP.the}, either destroy or return to {DP.the} all documents, materials, and other tangible manifestations of {DP.the}&rsquo;s Confidential Information and shall destroy any electronic or digital manifestations of {DP.the}&rsquo;s Confidential Information, except that {RP.the} may retain one copy of the Confidential Information solely for the purpose of monitoring its obligations under this Agreement.
 
-Notice._Sec=<u>{Notice.Title}</u>.  {Notice._sec}
+Notice._Sec=<u>{Notice.Title}</u>. &nbsp;{Notice._sec}
 
 Notice.Title=NOTICES
 
-Notice._sec=Any notices to be given under this Agreement, other than those contemplated by Section {Conf._Sec.Xnum}, shall be in writing and addressed to the parties as shown below.  Notices shall be delivered by certified or registered first class mail (air mail if not domestic) or by commercial courier service and shall be deemed to have been given or made as of the date received.<table><tr><td>For {P1.-}:</td><td>For {P2.-}:</td></tr><tr><td>{P1.Notice.Block}</td><td>{P2.Notice.Block}</td></tr></table>
+Notice._sec=Any notices to be given under this Agreement, other than those contemplated by Section {Conf._Sec.Xnum}, shall be in writing and addressed to the parties as shown below. &nbsp;Notices shall be delivered by certified or registered first class mail (air mail if not domestic) or by commercial courier service and shall be deemed to have been given or made as of the date received.<table><tr><td>For {P1.-}:</td><td>For {P2.-}:</td></tr><tr><td>{P1.Notice.Block}</td><td>{P2.Notice.Block}</td></tr></table>
 
-Misc._Sec=<u>{Misc.Title}</u>.  <ol><li>{Export._Sec}</li><li>{CREATE._Sec}</li><li>{Disclaim.Agency._Sec}</li><li>{Misc.Entire._Sec}</li><li>{Misc.Assign._Sec}</li><li>{Misc.Sever._Sec}</li><li>{Misc.Waive._Sec}</li><li>{Misc.Law._Sec}</li><li>{Misc.Counterpart._Sec}</li></ol>
+Misc._Sec=<u>{Misc.Title}</u>. &nbsp;<ol><li>{Export._Sec}</li><li>{CREATE._Sec}</li><li>{Disclaim.Agency._Sec}</li><li>{Misc.Entire._Sec}</li><li>{Misc.Assign._Sec}</li><li>{Misc.Sever._Sec}</li><li>{Misc.Waive._Sec}</li><li>{Misc.Law._Sec}</li><li>{Misc.Counterpart._Sec}</li></ol>
 
 Misc.Title=MISCELLANEOUS PROVISIONS
 
-Export._Sec=<u>{Export.Title}</u>.  {Export._sec}
+Export._Sec=<u>{Export.Title}</u>. &nbsp;{Export._sec}
 
-Export.Title=Export Control 
+Export.Title=Export Control
 
 Export._sec={DP.Each} covenants and warrants that it will not disclose to {RP.other} any information that contains information, technology or data identified on any U.S. export control list, including the Commerce Control List at 15 CFR 774 and the U.S. Munitions List at 22 CFR 121, unless and until it obtains {Export.Consent._cl}.
 
-CREATE._Sec=<u>{CREATE.Title}</u>.  {CREATE._sec}
+CREATE._Sec=<u>{CREATE.Title}</u>. &nbsp;{CREATE._sec}
 
 CREATE.Title=CREATE Act
 
 CREATE._sec=For the purposes of the Cooperative Research and Technology Enhancement Act of 2004, the parties agree that this Agreement is not considered a joint research agreement.
 
-Disclaim.Agency._Sec=<u>{Disclaim.Agency.Title}</u>.  {Disclaim.Agency._sec}
+Disclaim.Agency._Sec=<u>{Disclaim.Agency.Title}</u>. &nbsp;{Disclaim.Agency._sec}
 
 Disclaim.Agency.Title=No Agency or Future Commitment
 
 Disclaim.Agency._sec=The parties do not intend that any agency, partnership, joint venture, or exclusive relationship is created between the parties by this Agreement, and each party is free to pursue relationships and opportunities with others similar to those contemplated by this Agreement. Nothing in this Agreement shall be construed as obligating the parties to enter into any subsequent agreement or relationship.
 
-Misc.Entire._Sec=<u>{Misc.Entire.Title}</u>.  {Misc.Entire._sec}
+Misc.Entire._Sec=<u>{Misc.Entire.Title}</u>. &nbsp;{Misc.Entire._sec}
 
 Misc.Entire.Title=Entire Agreement/Amendment
 
 Misc.Entire._sec=This Agreement contains the entire understanding of the parties with respect to the subject matter hereof. This Agreement may be amended or modified only by a written instrument signed by an authorized representative of each party.
 
-Misc.Assign._Sec=<u>{Misc.Assign.Title}</u>.  {Misc.Assign._sec}
+Misc.Assign._Sec=<u>{Misc.Assign.Title}</u>. &nbsp;{Misc.Assign._sec}
 
 Misc.Assign.Title=Assignment
 
 Misc.Assign._sec=This Agreement may not be assigned by either party without the other party&rsquo;s prior written consent.
 
-Misc.Sever._Sec=<u>{Misc.Sever.Title}</u>.  {Misc.Sever._sec}
+Misc.Sever._Sec=<u>{Misc.Sever.Title}</u>. &nbsp;{Misc.Sever._sec}
 
 Misc.Sever.Title=Severability
 
 Misc.Sever._sec=The provisions of this Agreement are severable. In the event any provision of this Agreement is determined to be invalid or unenforceable, such invalidity or unenforceability shall not affect the validity or enforceability of the remaining provisions hereof and the provision shall be reformed to be enforceable and reflect as closely as possible the intent of the original provision.
 
-Misc.Waive._Sec=<u>{Misc.Waive.Title}</u>.  {Misc.Waive._sec} 
+Misc.Waive._Sec=<u>{Misc.Waive.Title}</u>. &nbsp;{Misc.Waive._sec} 
 
 Misc.Waive.Title=Waiver
 
 Misc.Waive._sec=Any waiver of compliance with the terms of this Agreement must be in writing, and any waiver in one instance shall not be deemed a waiver in any future instance.
 
-Misc.Law._Sec=<u>{Misc.Law.Title}</u>.  {Misc.Law._sec}
+Misc.Law._Sec=<u>{Misc.Law.Title}</u>. &nbsp;{Misc.Law._sec}
 
 Misc.Law.Title=Governing Law
 
@@ -200,7 +200,7 @@ Misc.Law._sec=The interpretation and validity of this Agreement and the rights o
 
 State.the=the Commonwealth of Massachusetts
 
-Misc.Counterpart._Sec=<u>{Misc.Counterpart.Title}</u>.  {Misc.Counterpart._sec}
+Misc.Counterpart._Sec=<u>{Misc.Counterpart.Title}</u>. &nbsp;{Misc.Counterpart._sec}
 
 Misc.Counterpart.Title=Counterparts
 

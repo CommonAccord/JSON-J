@@ -3,4 +3,4 @@ P1.=[ID_MIT_Edu]
 P2.=[ID_Quake_Inc.html]
 P1.ID.Handle=MIT
 P2.ID.Handle=Quake
- AGT.Effective.YMD=August 22, 2014
+AGT.Effective.YMD=August 22, 2014
