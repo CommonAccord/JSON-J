@@ -25,9 +25,15 @@ sub parse_root {
 	my ($f, $field) = @_; my $root;
 
 	seek($f, 0, 0);	
+<<<<<<< HEAD
 	local $/ = "\n";
 	while(<$f>) {
 		$_ = substr($_, 0, -1);
+=======
+#	local $/ = "\n\n";
+	while(<$f>) {
+#		$_ = substr($_, 0, -2);
+>>>>>>> FETCH_HEAD
 		return $root if ($root) = $_ =~ /^$field\s*=\s*(.*?)$/;
 	}
 	
@@ -55,5 +61,11 @@ sub expand_fields  {
 
 
 
+<<<<<<< HEAD
+print " ".parse($ARGV[0], "Model.Root");
+# print "\nMissing elements: @missing";
+=======
 print "\nResult:\n".parse($ARGV[0], "Model.Root");
-print "\nMissing elements: @missing";
+#print "\nMissing elements: @missing";
+>>>>>>> FETCH_HEAD
+
