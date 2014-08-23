@@ -13,7 +13,6 @@ sub parse {
 	ref($file) eq "GLOB" ? $f = $file : open $f, $file or die $!;
 	
 	my $content = parse_root($f, $root);
-print "found [$content] from ($root) -- in $file";
 	if($content) { expand_fields($f, \$content); return($content) }
 
 	return;
@@ -23,8 +22,6 @@ print "found [$content] from ($root) -- in $file";
 sub parse_root { 
 	
 	my ($f, $field) = @_; my $root;
-
-	print "looking for $field";
 
 	seek($f, 0, 0);	
 	while(<$f>) {
