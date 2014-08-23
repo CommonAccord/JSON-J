@@ -1,0 +1,15 @@
+Model.Root={A} {B} {C}: {ABC}
+
+
+A=Apple
+
+B=Banana
+
+C=Carrot
+
+ABC={A}
+{B}
+{C}
+
+
+Should return Apple Banana Carrot: Apple Banana Carrot
