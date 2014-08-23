@@ -1,5 +1,6 @@
-=[MIT_TLO]
-P1.=[ID_MIT_Edu]
-P2.=[ID_Quake_Inc.html]
-
+=[MIT_TLO.cmacc]
+P1.=[ID_MIT_Edu.cmacc]
+P2.=[ID_Quake_Inc.cmacc]
+P1.ID.Handle=MIT
+P2.ID.Handle=Quake
 AGT.Effective.YMD=August 22, 2014

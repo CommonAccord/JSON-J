@@ -24,7 +24,7 @@ President.Title=President and Chairman
 
 ID.Fax=650.345.1234
 
-ID.SignBy=By:<br/>Name: {President.ID.Name.Full}<br/>Its: {President.Title}
+ID.SignBy=By: <u>{xSignature}</u><br/>Name: {President.ID.Name.Full}<br/>Its: {President.Title}
 
 Sign.ID.Name.Full={President.ID.Name.Full}
 
@@ -40,5 +40,5 @@ The={-}
 the={-}
 
 he-she=it
-=[Class_ID]
+=[Class_ID.cmacc]
 

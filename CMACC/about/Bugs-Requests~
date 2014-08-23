@@ -7,8 +7,5 @@ Bugs / Requests for Improvements:
 
 3.  Figure out the "oddity" in the building of the Dictionary.  I am not sure that it is wrong, but I know that it is different than prior versions.
 
-4.  Handle infinite loops.  I can't figure out how I created one, but I did.   Test for some infinite loops - values that cross-reference (an error by the author, but easy to do).  Lists that reference one another (necessary when prefixing is used, perhaps useful even without, and certainly an easy error to make). 
-
-5. Bugs:  Infinite loop in AGT_Bug_3.txt
- 
+4.  Handle infinite loops.  I can't figure out how I created one, but I did.   Test for some infinite loops - values that cross-reference (an error by the author, but easy to do).  Lists that reference one another (necessary when prefixing is used, perhaps useful even without, and certainly an easy error to make).  
 

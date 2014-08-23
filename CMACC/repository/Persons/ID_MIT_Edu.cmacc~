@@ -2,7 +2,7 @@ MIT:
 
 <b>MIT</b>=&nbsp;
 
-ID.Name.Full=Massachusetts Institute of Technology
+ID.Name.Full=<b>Massachusetts Institute of Technology</b>
 
 
 -=MIT
@@ -23,7 +23,7 @@ OSP={ID.Name.Full} Office of Sponsored Research
 TLO=MIT Technology Licensing Office
 
 <b>MIT TLO</b>=-
-ID.SignBy=By:<br/>Name: {TLO.Dir.ID.Name.Full}<br/>Its: {TLO.Dir.Title}
+ID.SignBy=By: <u>{xSignature}</u><br/>Name: {TLO.Dir.ID.Name.Full}<br/>Its: {TLO.Dir.Title}
 
 TLO.Dir.ID.Name.Full=Lita Nelson
 
@@ -37,5 +37,7 @@ The={-}
 the={-}
 
 he-she=it
-TLO.=[ID_MIT_TechLicensingOffice]
-=[Class_ID]
+
+TLO.=[ID_MIT_Edu_TechLicensingOffice.cmacc]
+
+=[Class/ID.cmacc]

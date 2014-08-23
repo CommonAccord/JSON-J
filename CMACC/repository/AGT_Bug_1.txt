@@ -1,4 +1,4 @@
-P2.=[Class_ID]
+P2.=[Class_ID.cmacc]
 Model.Root={P2.ID.N,E,A}
 P2.ID.Name.Full=Acme
 
