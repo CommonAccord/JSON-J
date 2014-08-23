@@ -1,0 +1,13 @@
+P2.=[Class_ID]
+Model.Root={P2.ID.N,E,A}
+=[AGT_Frame.txt]
+
+As compared with Bug_1, this adds line 3.
+
+Does return:
+{P2.ID.N,E,A}
+
+(though seems to have looked for ID.Name.Full and some other elements of P2.ID.N,E,A)
+
+Should return:
+{P2.ID.Name.Full}, {P2.ID.Entity.a} whose {P2.ID.Addr.Type} address is {P2.ID.Addr.1}, {P2.ID.Addr.2} 
