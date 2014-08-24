@@ -27,7 +27,6 @@ sub parse_root {
 
 	seek($f, 0, 0);	
 	while(<$f>) {
-		print "[$f]:$. -- looking for $field";
 		return $root if ($root) = $_ =~ /^$field\s*=\s*(.*?)$/;
 	}
 	
@@ -36,7 +35,6 @@ sub parse_root {
 	while(<$f>) {
 		my($part,$what);	
 		if( (($part, $what) = $_ =~ /^([^=]*)=\[(.+?)\]/) and ($field =~ s/^$part//) ) {
-			print "PARSING:  $path.$what ---> $part - $field";
 			$root = parse($path.$what, $field, $part);
 			return $root if $root;
 		}
