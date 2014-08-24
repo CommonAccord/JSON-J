@@ -1,13 +1,8 @@
-
 =[Form/AGT/NDA/Form_MIT_TLO_Mutual.txt]
 
-P1.=[Person/ID_MIT_Edu.txt]
+=[Doc/Demo_Relationship_MIT_Quake.txt]
 
-P2.=[Person/ID_Quake_Inc.txt]
-
-P1.Handle=MIT
-
-P2.Handle=Quake
+P2.Handle=Company
 
 AGT.Effective.YMD=August 23, 2014
 
@@ -16,5 +11,7 @@ Prologue.Recital={_delete_}
 State.Of=the Commonwealth of Massachusetts
 
 AGT.Attach=&nbsp;
+
+Deal.#=Contract 2014-01-234l2
 
 END

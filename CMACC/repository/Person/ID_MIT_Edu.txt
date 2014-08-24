@@ -1,6 +1,8 @@
 MIT:
 
-<b>MIT</b>=&nbsp;
+<b>MIT</b>=&nbsp
+
+Handle=MIT
 
 ID.Name.Full=Massachusetts Institute of Technology
 

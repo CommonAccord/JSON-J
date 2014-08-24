@@ -1,16 +1,12 @@
 =[Form/AGT/Research/Form_MIT_Edu_OSP_USA.txt]
-.txt
+
+=[Doc/Relationship_MIT_Quake]
+
 P1.=[Person/ID_MIT_Edu.txt]
 
 P2.=[Person/ID_Quake_Inc.txt]
 
 AGT.Title=Sponsored Research Agreement
-
-AGT.Effective.YMD=<b>August 18, 2014</b>
-
-P1.Sign.YMD=August 20, 2014
-
-P2.Sign.YMD=August 18, 2014
 
 P1.Handle=MIT
 

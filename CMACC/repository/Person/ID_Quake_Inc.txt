@@ -1,6 +1,6 @@
 <b>Quake Info</b>
 
--=Quake
+Handle=Quake
 
 ID.Name.Full=Quake Inc.
 
