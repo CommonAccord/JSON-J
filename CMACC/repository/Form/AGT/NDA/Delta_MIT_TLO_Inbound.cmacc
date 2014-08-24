@@ -1,5 +1,3 @@
-=[Form/AGT/NDA/Form_MIT_TLO_Mutual.cmacc]
-
 AGT.Title=INBOUND NON-DISCLOSURE AGREEMENT
 
 Purpose.Roles={DP.the} disclosing confidential information to {RP.the}

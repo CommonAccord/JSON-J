@@ -1,5 +1,0 @@
-B=Bananas
-
-C=Carrots
-
-Model.Root={A} {B} and {C}

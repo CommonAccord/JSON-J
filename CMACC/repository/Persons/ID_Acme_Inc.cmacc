@@ -1,3 +1,28 @@
 ID.Name.Full=Acme Inc.
 
+Handle=<b>Acme</b>
+
+www.com=<b>www.acme.com</b>
+
+App=<b>AcMapp</b>
+
+Network=<b>AcMoney</b>
+
+System=<b>AcMagora</b>
+
+takedown@we.com=<b>takedown@acme.com</b>
+
+info@we.com=<b>info@acme.com</b>
+
+DA.ID.Name.Full=<b>Abigail Altima</b>
+
+DA.ID.Addr.1,2=<b>111 Water Street, Portland ME 00001</b>
+
+DA.ID.Phone=<b>207.555.5550</b>
+
+DA.ID.Fax=<b>207.555.5551</b>
+
+DA.ID.Email={takedown@we.com}
+
+=[Class/ID.cmacc]
 

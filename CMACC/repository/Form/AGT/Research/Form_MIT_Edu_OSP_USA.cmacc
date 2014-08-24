@@ -12,7 +12,7 @@ AGT._Secs=<ol><li>{SOW._Sec}</li><li>{Investigator._Sec}</li><li>{Period._Sec}</
 
 SOW._Sec=<u>Statement of Work</u>.<br>{P1.Handle} agrees to use reasonable efforts to perform the research program as described in Attachment {Attach.SOW} (the &ldquo;Research&rdquo;) to this Agreement.
 
-Investigator._Sec=<u>Principal Investigator</u>.<br>The Research will be supervised by {Investigator.ID.N,T,A} the &ldquo;Principal Investigator&rdquo;. If, for any reason, {Investigator.ID.Name.Short} is unable to continue to serve as Principal Investigator and a successor reasonably acceptable to both {P1.Handle} and the Sponsor is not available, this Agreement shall be terminated as provided in Article 6.
+Investigator._Sec=<u>Principal Investigator</u>.<br>The Research will be supervised by {Investigator.ID.N,T,A} the &ldquo;Principal Investigator&rdquo;. If, for any reason, {Investigator.Handle} is unable to continue to serve as Principal Investigator and a successor reasonably acceptable to both {P1.Handle} and the Sponsor is not available, this Agreement shall be terminated as provided in Article 6.
 
 Period._Sec=<u>Period of Performance</u>.<br>The Research shall be conducted during the period commencing {Project.Period.Begin} (the &ldquo;Start Date&rdquo;) and, unless earlier terminated in accordance with this Agreement, ending {Project.Period.End} (the &ldquo;Completion Date&rdquo;).  The Completion Date may be modified or extended only by mutual written agreement of the Parties.
 
@@ -26,7 +26,7 @@ Conf._Sec=<u>Confidential Information</u>.<br>If, in the performance of the Rese
 
 Publication._Sec=<u>Publications</u>.<br>{P1.Handle} will be free to publish the results of the Research after providing the Sponsor with a thirty (30) day period in which to review each publication to identify patentable subject matter and to identify any inadvertent disclosure of Confidential Information. If necessary to permit the preparation and filing of U.S. patent applications, the Principal Investigator may agree to an additional review period not to exceed sixty (60) days. Any further extension will require subsequent agreement between the Sponsor and {P1.Handle}.
 
-SponsorIP._Sec=<u>Sponsor Intellectual Property</u>.<br>Title to any invention conceived or first reduced to practice in performance of the Research solely by the Sponsor&rsquo;s personnel without significant use of {P1.Handle} administered funds or facilities (&ldquo;Sponsor Invention&rdquo;) shall remain with the Sponsor.  Title to and the copyright in any copyrightable material first produced or composed in the performance of the Research solely by the Sponsor&rsquo;s personnel without significant use of {P1.Handle} administered funds or facilities (&ldquo; Sponsor Copyright &rdquo;) shall remain with the Sponsor.  Neither Sponsor Inventions nor Sponsor Copyrights shall be subject to the terms and conditions of this Agreement.
+SponsorIP._Sec=<u>Sponsor Intellectual Property</u>.<br>Title to any invention conceived or first reduced to practice in performance of the Research solely by the Sponsor&rsquo;s personnel without significant use of {P1.Handle} administered funds or facilities (&ldquo;Sponsor Invention&rdquo;) shall remain with the Sponsor.  Title to and the copyright in any copyrightable material first produced or composed in the performance of the Research solely by the Sponsor&rsquo;s personnel without significant use of {P1.Handle} administered funds or facilities (&ldquo;Sponsor Copyright&rdquo;) shall remain with the Sponsor.  Neither Sponsor Inventions nor Sponsor Copyrights shall be subject to the terms and conditions of this Agreement.
 
 JointIP._Sec=<u>Joint Intellectual Property</u>.<ol type="A"><li>{JointIP.Title._Sec}</li><li>{JointIP.License._Sec}</li><li>{JointIP.Copyright._Sec}</li></ol>
 
@@ -70,8 +70,6 @@ Disclaim._Sec=<u>Representations and Warranties</u>.<br> <span style="text-trans
 
 Notice._Sec=<u>Notices</u>.<br>Any notices required to be given or which shall be given under this Agreement shall be in writing and be addressed to the Parties as shown on Attachment {Attach.Notice}.  Notices shall be delivered by certified or registered first class mail (air mail if not domestic) or by commercial courier service and shall be deemed to have been given or made as of the date received.
 
- 
-
 Assign._Sec=<u>Assignment</u>.<br>This Agreement shall be binding upon and inure to the benefit of the Parties hereto and the ir respective successors and permitted assigns.  Neither Party may assign this Agreement without the prior written consent of the other Party, except to a successor to all or substantially all of its business and assets.  Any attempted assignment in violation of this Article 15 is void. 
 
 Law._Sec=<u>Governing Law</u>.<br>The validity and interpretation of this Agreement and the legal relationship of the Parties to it shall be governed by the laws of {Laws.Of} and the applicable U.S. Federal law.
@@ -113,6 +111,8 @@ Attach.Conf=D (Confidentiality)
 Attach.Notice=E (Notices)
 
 =[Form/AGT/Base/AGT_Frame.cmacc]
+
+=[Form/AGT/Research/Form_MIT_Edu_OSP_USA_Schedule_Confidentiality.cmacc]
 
 
 
