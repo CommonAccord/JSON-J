@@ -1,6 +1,6 @@
 =[AGT_Frame.cmacc]
 
-P1.=[Persons/ID_MIT_Edu.cmacc]
+P1.=[Person/ID_MIT_Edu.cmacc]
 
 P1.=[Class/ID.cmacc]
 

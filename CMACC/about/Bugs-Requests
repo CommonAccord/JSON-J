@@ -1,19 +1,19 @@
 Bugs / Requests for Improvements:
 
 
-1.  Write the output to a file.  Perhaps by adding an argument.  Will cut down on the number of steps in viewing the result in a browser. 
+1.  Figure out the "oddity" in the building of the Dictionary. See the note on Expansion-of-a-List.
 
-2.  Enforce a two-linebreak rule between key/values.  This allows the author to use line breaks to make the value easier to read.  Also makes it easier to spot the key. 
+2. Trim the <ol><li>  - </li></ol>  - explained in the note on Expansion-of-a-List.
 
-3.  Figure out the "oddity" in the building of the Dictionary.  I am not sure that it is wrong, but I know that it is different than prior versions.
+3.  Provide an output of the expanded List (the Dictionary).
 
-4.  Handle infinite loops.  I can't figure out how I created one, but I did.   Test for some infinite loops - values that cross-reference (an error by the author, but easy to do).  Lists that reference one another (necessary when prefixing is used, perhaps useful even without, and certainly an easy error to make). 
+4.  ROLL-Back - to be considered in the future.  Enforce a two-linebreak rule between key/values.  This allows the author to use line breaks to make the value easier to read.  Also makes it easier to spot the key. 
 
-5. Bugs:  Infinite loop in AGT_Bug_3.txt
+5.  Handle infinite loops.  I can't figure out how I created one, but I did. I’ll see if it happens again. 
 
-(Updated Parser - for 2 linefeeds)
+6. An expression that ends in a dollar sign is not evaluated {Price.Max.$}.  
 
-6. AGT_Bug_4.txt - the LAST character in the file is trimmed.  Any following character prevents the trimming.
+
 
 
 

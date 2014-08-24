@@ -1,6 +1,6 @@
 =[Form/AGT/Web/ToU/Library.cmacc]
 
-We.=[Persons/ID_Acme_Inc.cmacc]
+We.=[Person/ID_Acme_Inc.cmacc]
 
 Laws.Of=the State of Maine
 

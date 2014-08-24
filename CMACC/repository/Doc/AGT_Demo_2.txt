@@ -4,9 +4,9 @@ AGT.Title=My Non-Disclosure Agreement
 
 =[Form/AGT/NDA/Form_MIT_TLO_Mutual.cmacc]
 
-P1.=[Persons/ID_MIT_Edu.cmacc]
+P1.=[Person/ID_MIT_Edu.cmacc]
 
-P2.=[Persons/ID_Quake_Inc.cmacc]
+P2.=[Person/ID_Quake_Inc.cmacc]
 
 P1.Handle=MIT
 
