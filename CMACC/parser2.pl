@@ -27,14 +27,14 @@ sub parse_root {
 
 	seek($f, 0, 0);	
 	while(<$f>) {
-		return $root if ($root) = $_ =~ /^$field\s*=\s*(.*?)$/;
+		return $root if ($root) = $_ =~ /^\Q$field\E\s*=\s*(.*?)$/;
 	}
 	
 	
 	seek($f, 0, 0);
 	while(<$f>) {
 		my($part,$what);	
-		if( (($part, $what) = $_ =~ /^([^=]*)=\[(.+?)\]/) and ($field =~ s/^$part//) ) {
+		if( (($part, $what) = $_ =~ /^([^=]*)=\[(.+?)\]/) and ($field =~ s/^\Q$part\E//) ) {
 			$root = parse($path.$what, $field, $part);
 			return $root if $root;
 		}
@@ -51,7 +51,7 @@ sub expand_fields  {
 		my $ex = $_;
 		my $ox = $part ? $part . $ex : $ex;
 		my $value = parse($orig, $ox);
-		$value ? $$field =~ s/\{$ex\}/$value/gg : push @missing, $ex;
+		$value ? $$field =~ s/\{\Q$ex\E\}/$value/gg : push @missing, $ex;
 	}
 } 
 
