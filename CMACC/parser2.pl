@@ -57,5 +57,5 @@ sub expand_fields  {
 
 
 
-print "\nResult:\n".parse($ARGV[0], "Model.Root");
-print "\nMissing elements: @missing";
+print " ".parse($ARGV[0], "Model.Root");
+# print "\nMissing elements: @missing";
