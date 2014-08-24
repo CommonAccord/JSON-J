@@ -1,0 +1,15 @@
+The user imagines that the List is expanded just like the text is expanded:
+
+Expanding the List is like expanding the text, EXCEPT that we have to expand expressions in the List from the top, and we expand an expression only if it might have the key we are looking for.  (In contrast, it does not matter in what order we expand expressions in the text.)  
+
+We start with the List as it is.  We distinguish between the part of the List BEFORE an expression (the FIRST) and the REST.  
+
+We test the key we are looking for against the first key in the FIRST, etc, until found.  If not found, we consider expanding the expression.  We do expand the expression IF the expression MIGHT contain the key we are looking for.  Normally, it might, but disqualifying circumstances are (i) it’s prefix is incompatible or (ii) we’ve already expanded it (e.g., in circular referencing between Lists).
+
+(This explanation can probably be simplified as recursion.)
+After expanding the expression, we test the key against it, and recursively expand any expressions in it.  If we find the key, we stop.  If we exhaust the List and expressions, we stop.  We then add the result of the recursive expansion to the FIRST.  If we found the key then we return the value.  If we did not find the key then we continue testing it against the REST. 
+ 
+Prefixes:  When expanding a List, the prefix is added to each key, and to each expression in a value.
+
+Metadata:  When expanding a List, the FIRST must have a record of the source of each included key. I believe that it does not have to have a record of how it was expanded (in contrast to expansion of a text, where the nesting does matter). 
+
