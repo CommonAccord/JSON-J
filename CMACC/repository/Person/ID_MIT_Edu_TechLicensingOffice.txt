@@ -15,4 +15,4 @@ Dir.ID.Name.Full=Lita Nelson
 
 Dir.Title=Director
 
-=[Class/ID.cmacc]
+=[Class/ID.txt]

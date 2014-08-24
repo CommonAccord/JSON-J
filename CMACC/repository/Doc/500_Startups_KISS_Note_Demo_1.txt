@@ -1,3 +1,0 @@
-=[Form/AGT/Startup/500/Delta_KISS_Equity.txt]
-
-=[Form/AGT/Startup/500/Form_KISS_Base.txt]

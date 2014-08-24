@@ -5,5 +5,5 @@ Getting started:
 2. cd to the parser.pl.
 3. In a terminal - type:
 	perl parser.pl FileToRender > FileAsOutput  
-	e.g.:   perl parser.pl repository/Doc/AGT_Demo_Web_TermsOfUse.cmacc > repository/Output.html
+	e.g.:   perl parser.pl repository/Doc/AGT_Demo_Web_TermsOfUse.txt > repository/Output.html
 		   

@@ -1,11 +1,8 @@
-Model.Root=something{here}..
-here=what..
-
 AGT._Secs=SHOULD OVERRIDE BZ is HIGHER IN PRIORITY
 
-P1.=[ID_MIT_Edu]
+P1.=[Person/ID_MIT_Edu.txt]
 
-P2.=[ID_Quake_Inc.html]
+P2.=[Person/ID_Quake_Inc.txt]
 
 P1.ID.N,E,A=SHOULD NOT OVERRIDE BECAUSE IS LOWER IN PRIORITY
 
@@ -13,4 +10,4 @@ AGT.Effective.YMD=August 22, 2014
 
 P1.ID.Handle=MIT
 
-=[MIT_TLO]
+=[Form/AGT/NDA/Form_MIT_TLO_Mutual.txt]

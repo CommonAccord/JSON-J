@@ -1,0 +1,21 @@
+=[Form/AGT/Startup/500/Delta_KISS_Debt.txt]
+
+=[Form/AGT/Startup/500/Form_KISS_Base.txt]
+
+Co.=[Person/ID_Quake_Inc.txt]
+
+Investor.=[Person/ID_Acme_Inc.txt]
+
+Series.X=<b>A</b>
+
+Share.Discount.%=<b>eight percent (8%)</b>
+
+Interest.%=<b>four percent (4%)</b>
+
+Maturity.Date.Months=<b>18</b>
+
+NextEquity.Financing.US=<b>US $1,000,000</b>
+
+Valuation.Cap.US=<b>US $25,000,000</b>
+
+MajorInvestor.Threshold.US=<b>US $50,000</b>

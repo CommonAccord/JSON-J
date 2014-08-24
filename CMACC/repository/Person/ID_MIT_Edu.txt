@@ -30,6 +30,6 @@ TLO.Dir.Title=Director
 
 Contact1.ID.N/A={TLO.Dir.ID.N,T}<br/>{TLO.ID.Addr.N/1/2}
 
-TLO.=[ID_MIT_Edu_TechLicensingOffice.cmacc]
+TLO.=[ID_MIT_Edu_TechLicensingOffice.txt]
 
-=[Class/ID.cmacc]
+=[Class/ID.txt]

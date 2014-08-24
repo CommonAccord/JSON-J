@@ -194,7 +194,7 @@ Misc.Law._Sec=<u>{Misc.Law.Title}</u>. &nbsp;{Misc.Law._sec}
 
 Misc.Law.Title=Governing Law
 
-Misc.Law._sec=The interpretation and validity of this Agreement and the rights of the parties shall be governed by the laws of {State.the}.
+Misc.Law._sec=The interpretation and validity of this Agreement and the rights of the parties shall be governed by the laws of {State.Of}.
 
 Misc.Counterpart._Sec=<u>{Misc.Counterpart.Title}</u>. &nbsp;{Misc.Counterpart._sec}
 
@@ -248,4 +248,4 @@ Agt.Attachment={_delete_}
 
 relating to=relating to
 
-=[Form/AGT/Base/AGT_Frame.cmacc]
+=[Form/AGT/Base/AGT_Frame.txt]

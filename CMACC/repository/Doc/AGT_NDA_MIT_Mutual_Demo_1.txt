@@ -1,0 +1,20 @@
+
+=[Form/AGT/NDA/Form_MIT_TLO_Mutual.txt]
+
+P1.=[Person/ID_MIT_Edu.txt]
+
+P2.=[Person/ID_Quake_Inc.txt]
+
+P1.Handle=MIT
+
+P2.Handle=Quake
+
+AGT.Effective.YMD=August 23, 2014
+
+Prologue.Recital={_delete_}
+
+State.Of=the Commonwealth of Massachusetts
+
+AGT.Attach=&nbsp;
+
+END

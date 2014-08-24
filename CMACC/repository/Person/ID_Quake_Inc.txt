@@ -36,5 +36,5 @@ ID.Entity.a=a {ID.Entity}
 
 ID.Entity=Delaware corporation
 
-=[Class/ID.cmacc]
+=[Class/ID.txt]
 

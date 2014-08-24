@@ -1,6 +1,6 @@
-=[Form/AGT/Web/ToU/Library.cmacc]
+.txt=[Form/AGT/Web/ToU/Library.txt]
 
-We.=[Person/ID_Acme_Inc.cmacc]
+We.=[Person/ID_Acme_Inc.txt]
 
 Laws.Of=the State of Maine
 

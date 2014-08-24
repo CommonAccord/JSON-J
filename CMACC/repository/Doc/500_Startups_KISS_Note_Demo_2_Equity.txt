@@ -1,0 +1,7 @@
+=[Form/AGT/Startup/500/Form_KISS_Base.txt]
+
+=[Form/AGT/Startup/500/Delta_KISS_Equity.txt]
+
+=[Doc/500_Startups_KISS_Note_Demo_1_Debt.txt]
+
+

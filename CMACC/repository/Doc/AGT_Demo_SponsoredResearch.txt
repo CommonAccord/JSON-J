@@ -1,8 +1,8 @@
-=[Form/AGT/Research/Form_MIT_Edu_OSP_USA.cmacc]
+=[Form/AGT/Research/Form_MIT_Edu_OSP_USA.txt]
+.txt
+P1.=[Person/ID_MIT_Edu.txt]
 
-P1.=[Person/ID_MIT_Edu.cmacc]
-
-P2.=[Person/ID_Quake_Inc.cmacc]
+P2.=[Person/ID_Quake_Inc.txt]
 
 AGT.Title=Sponsored Research Agreement
 
