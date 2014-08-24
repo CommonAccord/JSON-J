@@ -11,7 +11,11 @@ Bugs / Requests for Improvements:
 
 5.  Handle infinite loops.  I can't figure out how I created one, but I did. I’ll see if it happens again. 
 
-6. An expression that ends in a dollar sign is not evaluated {Price.Max.$}.  
+6. An expression that ends in a dollar sign is not evaluated {Price.Max.$}.
+
+7. An expression that includes parenthesis is not evaluated {1.1.(a).tx}
+
+
 
 
 
