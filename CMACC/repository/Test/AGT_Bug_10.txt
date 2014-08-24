@@ -1,0 +1,5 @@
+=[Test/import6.cmacc]
+
+P1.=[Test/import7.cmacc]
+
+P1.A=Apples

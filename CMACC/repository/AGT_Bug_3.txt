@@ -1,6 +1,0 @@
-P2.=[ID_Quake_Inc.cmacc]
-=[AGT_Frame.cmacc]
-
-
-Infinite loop. The loop is not there if only the second line. 
-
