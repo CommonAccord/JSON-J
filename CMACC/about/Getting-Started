@@ -4,6 +4,6 @@ Getting started:
 1. Git - pull to local directory. 
 2. cd to the parser.pl.
 3. In a terminal - type:
-                   perl parser.pl FileToRender > FileAsOutput  e.g.:
-		   perl parser.pl AGT_Demo_2.txt > Output.html  e.g.:
+	perl parser.pl FileToRender > FileAsOutput  
+	e.g.:   perl parser.pl repository/Doc/AGT_Demo_Web_TermsOfUse.cmacc > repository/Output.html
 		   

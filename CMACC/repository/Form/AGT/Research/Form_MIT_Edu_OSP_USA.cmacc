@@ -50,7 +50,7 @@ EduIP.License.Exclusive._cl=a royalty-bearing, limited-term, exclusive license (
 
 EduIP.ProsecuteForeign._Sec=<u>Foreign Filing Election</u>.<br>If the Sponsor elects a license under 11.B.1 or 11.B.2., the Sponsor shall notify {P1.Handle} of those foreign countries in which it desires a license in sufficient time for {P1.Handle} to satisfy the patent law requirements of those countries. The Sponsor will reimburse {P1.Handle} for the out - of - pocket costs, including patent filing, prosecution and maintenance fees, related to those foreign filings.
 
-EduIP.ConfInvention._Sec=<u>Confidentiliaty of Invention Disclosures</u>.<br>The Sponsor shall retain all invention disclosures submitted to the Sponsor by {P1.Handle} in confidence and use its best efforts to prevent their disclosure to third parties. The Sponsor shall be relieved of this obligation only when this information becomes publicly available through no fault of the Sponsor.
+EduIP.ConfInvention._Sec=<u>Confidentiality of Invention Disclosures</u>.<br>The Sponsor shall retain all invention disclosures submitted to the Sponsor by {P1.Handle} in confidence and use its best efforts to prevent their disclosure to third parties. The Sponsor shall be relieved of this obligation only when this information becomes publicly available through no fault of the Sponsor.
 
 EduIP.Copyright._Sec=<u>Copyright Ownership and Licenses</u>.<br>Title to and the copyright in any copyrightable material first produced or composed in the performance of the Research solely by employees and/or students of {P1.Handle} shall remain with {P1.Handle}.<ol><li>{EduIP.Copyright._List}</li></ol>
 
