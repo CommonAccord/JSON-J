@@ -1,0 +1,12 @@
+=[Form/AGT/Base/AGT_Frame.txt]
+
+Model.Root=Prologue<ol><li>{AGT._Secs}</li></ol>Signature
+
+AGT._Secs=<ol><li>{1.Sec}</li><li>{2.Sec}</li></ol>
+
+1.Sec=<u>Hello</u><ol><li>{1.1.Sec}</li><li>{1.2.Sec}</li></ol>
+
+2.Sec=<ul><li>Section 2</li><li>{4.Sec}</ul>
+
+4.Sec=This is section 4.
+
