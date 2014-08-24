@@ -34,7 +34,7 @@ Equity.5.1.a-c=(a) conversion of this KISS or (b) a Corporate Transaction
 
 Debt.5.5.tx=<u>Security</u>.  This KISS is a general unsecured obligation of the Company.
 
-Equity.5.5.tx=
+Equity.5.5.tx={_delete_}
 
 Debt.5.14.Xref.List=2.2, 5.2 (if and only if Investor is a Major Investor), 5.3, 5.6, 5.13 and 5.14
 
@@ -44,7 +44,7 @@ Debt.5.14=5.14
 
 Equity.5.14=5.13
 
-Debt.5.15.tx=
+Debt.5.15.tx={_delete_}
 
 Equity.5.15.tx=<u>Priority</u>.  This KISS shall rank pari passu in all respects (including right of payment) to all other KISSes and all convertible indebtedness of the Company, now or hereafter existing.
 
@@ -116,7 +116,7 @@ NowTherefore.2=This KISS is one of a series of Series {Series.X} KISSes issued b
 
 1.1.o.tx=&ldquo;Next Equity Financing&rdquo; shall mean the next sale (or series of related sales) by the Company of its Preferred Stock following the Date of Issuance from which the Company receives gross proceeds of not less than {NextEquity.Financing.US} (excluding the aggregate amount of securities converted into Preferred Stock in connection with such sale (or series of related sales)).
 
-1.1.p.tx= &ldquo;Participation Amount&rdquo; shall mean an amount in US dollars equal to one times (1X) the Purchase Price.
+1.1.p.tx=&ldquo;Participation Amount&rdquo; shall mean an amount in US dollars equal to one times (1X) the Purchase Price.
 
 1.1.q.tx=&ldquo;Shadow Series&rdquo; shall mean shares of a series of the Company's Preferred Stock that is identical in all respects to the shares of Preferred Stock issued in the Next Equity Financing (e.g., if the Company sells Series A Preferred Stock in the Next Equity Financing, the Shadow Series would be Series A-1 Preferred Stock), except that the liquidation preference per share of the Shadow Series shall equal the Conversion Price (as determined pursuant to Section 1(b)(i)), with corresponding adjustments to any price-based antidilution and dividend rights provisions.
 
