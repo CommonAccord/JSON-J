@@ -13,3 +13,31 @@ Prefixes:  When expanding a List, the prefix is added to each key, and to each e
 
 Metadata:  When expanding a List, the FIRST must have a record of the source of each included key. I believe that it does not have to have a record of how it was expanded (in contrast to expansion of a text, where the nesting does matter). 
 
+So, trying to make this a flow-chart:
+
+
+Expanding a List into a Text means replacing the TextExpressions with the value returned by interrogating the List.
+
+TextExpansion begins with an arbitrary Key1 = “Model.Root” and continues until each TextExpression in the expanding text has been replaced or determined to be missing. 
+
+Interrogate List for KeyX:
+
+	For each key/value in List:
+		Is the key/value a ListExpression?
+			Might it contain a key that matches KeyX?
+				If so, 	then Expand the ListExpression and 
+					move the pointer to the beginning of the expansion.
+				If not, then move on to the next key/value in the List.  
+		Does the key match KeyX?
+			If so, then return the value.
+			If not, then move on to the next key/value in the List. 
+		If the List is exhausted and KeyX is not found, 
+			then add it as “not found” at the top of the List.
+
+  	Expand the ListExpression:
+		Replace the ListExpression with:
+			A copy of the referenced List
+			In which the Prefix has been added to:
+				the beginning of each key and 
+				each TextExpression.  
+		
