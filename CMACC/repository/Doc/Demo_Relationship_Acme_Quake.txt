@@ -1,0 +1,14 @@
+P1.=[Person/ID_Acme_Inc.txt]
+
+P2.=[Person/ID_Quake_Inc.txt]
+
+AGT.Effective.YMD=<b>August 19, 2014</b>
+
+P1.Sign.YMD=August 20, 2014
+
+P1.xSignature=x Andrea Ang
+
+P2.Sign.YMD=August 18, 2014
+
+P2.xSignature=x Colleen Kendall
+

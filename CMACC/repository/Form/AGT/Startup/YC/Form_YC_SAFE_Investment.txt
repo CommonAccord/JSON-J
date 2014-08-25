@@ -12,9 +12,9 @@ Prologue.Legend=THIS INSTRUMENT AND ANY SECURITIES ISSUABLE PURSUANT HERETO HAVE
 
 AGT.Title=SAFE (Simple Agreement for Future Equity)
 
-Prologue.ThisAgreement=THIS CERTIFIES THAT in exchange for the payment by {P2.ID.N,E,A} (the &ldquo;Investor&rdquo;) of {Purchase_Amount.US} (the &ldquo;Purchase Amount&rdquo;) on or about {Payment.YMD}, {P1.ID.N,E,A} (the &ldquo;Company&rdquo;), hereby issues to the Investor the right to certain shares of the Company&rsquo;s capital stock, subject to the terms set forth below. 
+Prologue.ThisAgreement=THIS CERTIFIES THAT in exchange for the payment by {P2.ID.N,E,A} (the &ldquo;Investor&rdquo;) of {Purchase_Amount.$} (the &ldquo;Purchase Amount&rdquo;) on or about {Payment.YMD}, {P1.ID.N,E,A} (the &ldquo;Company&rdquo;), hereby issues to the Investor the right to certain shares of the Company&rsquo;s capital stock, subject to the terms set forth below. 
 
-Prologue.NowTherefore=The &ldquo;Valuation Cap&rdquo; of this SAFE is {SAFE.Valuation_Cap.US}.  See Section 2 for certain additional defined terms.
+Prologue.NowTherefore=The &ldquo;Valuation Cap&rdquo; of this SAFE is {SAFE.Valuation_Cap.$}.  See Section 2 for certain additional defined terms.
 
 Sec.Event=<u>Events</u>.  <ol><li>{Event.Equity}</li><li>{Event.Liquid}</li><li>{Event.Dissolve}</li></ol>
 
@@ -139,3 +139,4 @@ Misc.Sever=In the event any one or more of the provisions of this instrument is 
 
 Misc.Law=All rights and obligations hereunder will be governed by the laws of {State.Of}, without regard to the conflicts of law provisions of such jurisdiction.
 
+AGT.Attach=&nbsp;

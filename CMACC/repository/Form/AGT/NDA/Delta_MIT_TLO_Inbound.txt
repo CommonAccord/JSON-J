@@ -1,4 +1,4 @@
-AGT.Title=INBOUND NON-DISCLOSURE AGREEMENT
+AGT.Title=Inbound Non-Disclosure Agreement
 
 Purpose.Roles={DP.the} disclosing confidential information to {RP.the}
 
