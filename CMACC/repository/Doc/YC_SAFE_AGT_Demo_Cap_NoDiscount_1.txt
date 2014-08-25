@@ -1,6 +1,6 @@
-=[Form/AGT/Startup/YC/Delta_YC_SAFE_Cap_NoDiscount.txt]
+=[Form/AGT/Startup/YC/SAFE/Delta_YC_SAFE_Cap_NoDiscount.txt]
 
-=[Form/AGT/Startup/YC/Form_YC_SAFE_Investment.txt]
+=[Form/AGT/Startup/YC/SAFE/Form_YC_SAFE_Investment.txt]
 
 =[Doc/Demo_Relationship_Acme_Quake.txt]
 
