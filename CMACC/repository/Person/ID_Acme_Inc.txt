@@ -1,5 +1,7 @@
 ID.Name.Full=Acme Inc.
 
+Handle=Acme
+
 www.com=<b>www.acme.com</b>
 
 App=<b>AcMapp</b>

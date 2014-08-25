@@ -1,3 +1,1 @@
-Model.Root={MyText}
-
-MyText=Word
+=[Doc/AGT_MasterServices_Demo_1.txt]
